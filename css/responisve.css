@@ -1,0 +1,379 @@
+/*Big Size Screens*/
+@media (max-width: 1200px)
+{
+	.header .btnOrder
+	{
+		margin-right:20px
+	}
+	
+	.header .listMenu li a
+	{
+		padding:0 20px
+	}
+
+	.AboutPage .itemAbout
+	{
+		padding-left:15px;
+		padding-right:15px;
+	}
+	
+	.features .itemFeature .titleItem
+	{
+		font-size:15px;
+	}
+	
+}
+
+@media (min-width: 991px) and (max-width: 1200px)
+{
+	.services .itemService .mask
+	{
+		padding-top:20px;
+	}
+	
+	.services .itemService .mask .titleMask
+	{
+		font-size:22px;
+		margin-bottom:15px;
+	}
+	
+	.services .itemService .mask .desc
+	{
+		font-size:15px;
+		line-height:30px;
+	}
+
+	.plans .plan
+	{
+		max-height: 450px;
+	}
+	
+	.plans .plan:hover
+	{
+		padding-left:20px;
+		padding-right:20px;
+		padding-top:20px;
+	}
+	
+	.plans .plan .planDetails .titlePlan
+	{
+		font-size:20px;
+	}
+	
+	.plans .plan .planDetails .price span
+	{
+		font-size:30px;
+	}
+	
+	.plans .plan .planDetails .listPlan li
+	{
+		font-size:16px;
+	}
+	
+	.plans .plan .planDetails .btnPlan
+	{
+		font-size:18px;
+	}
+	
+}
+/* small Screens & tablets & Smart phone */
+@media (max-width: 991px) 
+{
+	.header
+	{
+		padding:13px 0
+	}
+	
+	.headerHeight
+	{
+		height:103px
+	}
+	
+	.header .listMenu,
+	.header .btnOrder
+	{
+		display:none
+	}
+	
+	.header .logo
+	{
+		margin-top:0;
+	}
+	
+	.header .btnOrder
+	{
+		height:40px;
+		line-height:35px;
+		font-size:17px;
+		margin-top:11px;
+	}
+	
+	.slider .sliderDetails .titleSlider
+	{
+		font-size:40px;
+	}
+	
+	.slider .sliderDetails .desc
+	{
+		font-size:25px;
+	}
+	
+	.plans .plan
+	{
+		margin-bottom:65px;
+	}
+	
+
+	.footer .footerTop
+	{
+		text-align:center
+	}
+	
+	.footer .footerTop .socialFooter
+	{
+		display:inline-block;
+		float:none;
+		margin-bottom:20px;
+	}
+	
+	.footer .footerTop .listInfo
+	{
+		float:none;
+		display:inline-block
+	}
+	
+	.footer .footerTop .listInfo li
+	{
+		margin-bottom:15px;
+		float:none;
+		display:block
+	}
+	
+	.footer .footerTop .listInfo li:first-of-type
+	{
+		margin-right:0
+	}
+	
+	.header .openMenu
+	{
+		float:left;
+		display:block;
+		margin-top:34px;
+	}
+	
+	.modal-open .modal
+	{
+		padding:20px!important
+	}
+	
+	.modal.in .modal-dialog
+	{
+		margin:0;
+	}
+	
+}
+
+/* Small Screens */
+@media (min-width: 768px) and (max-width: 991px) 
+{
+	
+	
+}
+
+/* Mobile & Tablets */
+@media (max-width: 767px) 
+{
+	
+	.slider
+	{
+		overflow:hidden
+	}
+	
+	.slider .sliderDetails
+	{
+		padding-top:10%;
+	}
+	
+	.slider .sliderDetails .titleSlider
+	{
+		font-size:31px;
+		margin-bottom:15px;
+	}
+	
+	.slider .sliderDetails .desc
+	{
+		font-size:15px;
+	}
+	
+	.the-slider-control li span i
+	{
+		right:20px;
+		font-size:40px;
+	}
+	
+	.the-slider-control li span#slider-prev i
+	{
+		left:20px;
+	}
+	
+	.bx-wrapper .bx-pager.bx-default-pager
+	{
+		height:3px
+	}
+	
+	.bx-wrapper .bx-pager.bx-default-pager a
+	{
+		height:3px;
+	}
+	
+	.aboutHome .title,
+	.services .title,
+	.plans .title,
+	.footer .titleFooter
+	{
+		font-size:35px;
+		margin-bottom:25px;
+	}
+	
+	.services .title,
+	.plans .title,
+	.footer .titleFooter
+	{
+		margin-bottom:40px;
+	}
+	
+	.aboutHome .desc
+	{
+		font-size:16px;
+	}
+	
+	.services .itemService .titleItem
+	{
+		font-size:20px;
+	}
+	
+	.map
+	{
+		height:auto
+	}
+	
+	.servicesPage
+	{
+		padding-top:60px;
+	}
+	
+	.OrderSection .title
+	{
+		font-size:35px;
+		margin-bottom:15px;
+	}
+	
+	.OrderSection .desc
+	{
+		font-size:25px;
+		margin-bottom:25px;
+	}
+	
+}
+
+/* Tablets */
+@media (min-width:480px) and (max-width: 767px)
+{
+
+}
+
+/* Mobile */
+@media (max-width: 479px) 
+{
+	.header .logo
+	{
+		width:230px;
+	}
+	
+	.header .openMenu
+	{
+		margin-top:24px;
+	}
+	
+	.headerHeight
+	{
+		height: 89px;
+	}
+	
+	.slider .sliderDetails .titleSlider
+	{
+		font-size:18px
+	}
+	
+	.plans .plan .planDetails .titlePlan
+	{
+		font-size:25px;
+	}
+	
+	.plans .plan:hover
+	{
+		padding:20px 20px 0
+	}
+	
+	.footer .footerTop .listInfo li
+	{
+		width:100%;
+		text-align:left
+	}
+	
+	.footer .footerTop .listInfo li:first-of-type
+	{
+		margin-right:0
+	}
+	
+	.footer .footerTop .socialFooter li a
+	{
+		width:45px;
+		height:45px;
+		line-height:45px;
+		font-size:25px
+	}
+	
+	.modalOrder .modal-body
+	{
+		padding-left:20px;
+		padding-right:20px;
+	}
+	
+	.modalOrder .titleModal
+	{
+		font-size:25px;
+	}
+	.services .itemService .mask
+	{
+		padding-top:20px;
+	}
+	
+	.services .itemService .mask .titleMask
+	{
+		font-size:22px;
+		margin-bottom:15px;
+	}
+	
+	.services .itemService .mask .desc
+	{
+		font-size:14px;
+		line-height:30px;
+	}
+	
+	.breadCrumb
+	{
+		padding:70px 0
+	}
+	
+	.breadCrumb .title
+	{
+		font-size:35px;
+	}
+	
+	.OrderSection .desc
+	{
+		font-size:23px;
+	}
+	
+}
